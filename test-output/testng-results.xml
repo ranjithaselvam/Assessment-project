@@ -1,37 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-27T15:24:07Z" name="Default suite" finished-at="2019-09-27T15:25:00Z" duration-ms="53449">
+  <suite started-at="2019-09-30T14:26:42Z" name="Default suite" finished-at="2019-09-30T14:28:33Z" duration-ms="111071">
     <groups>
     </groups>
-    <test started-at="2019-09-27T15:24:07Z" name="Default test" finished-at="2019-09-27T15:25:00Z" duration-ms="53449">
-      <class name="com.atmecs.project.script.SearchBlogs">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.atmecs.project.script.SearchBlogs@78b729e6]" started-at="2019-09-27T15:24:07Z" name="browserSetup" finished-at="2019-09-27T15:24:37Z" duration-ms="29976" status="PASS">
+    <test started-at="2019-09-30T14:26:42Z" name="Default test" finished-at="2019-09-30T14:28:33Z" duration-ms="111071">
+      <class name="com.atmecs.project.script.VerifyFooter">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:26:42Z" name="browserSetup" finished-at="2019-09-30T14:27:50Z" duration-ms="67482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="searchLog(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.project.script.SearchBlogs@78b729e6]" started-at="2019-09-27T15:24:43Z" name="searchLog" data-provider="inputValue" finished-at="2019-09-27T15:24:59Z" duration-ms="15497" status="PASS">
+        <test-method signature="verifyFooter()[pri:1, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:27:50Z" name="verifyFooter" finished-at="2019-09-30T14:28:25Z" duration-ms="34555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:27Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:28Z" duration-ms="916" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[15-Mar-2019]]>
+                <![CDATA[Digital Life]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Debunking Myths about AI]]>
+                <![CDATA[Infrastructure Services]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchLog -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.atmecs.project.script.SearchBlogs@78b729e6]" started-at="2019-09-27T15:24:59Z" name="browserClose" finished-at="2019-09-27T15:25:00Z" duration-ms="1402" status="PASS">
+        </test-method> <!-- contextMenu -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:28Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:29Z" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Artificial Intelligence / Machine Learning]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infrastructure Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:29Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:29Z" duration-ms="679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Augmented Reality / Virtual Reality]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cloud Infrastructure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:29Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:30Z" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blockchain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Devops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:30Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:31Z" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robotic Process Automation & ChatBOTs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NOC Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+        <test-method signature="contextMenu(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:31Z" name="contextMenu" data-provider="menu" finished-at="2019-09-30T14:28:31Z" duration-ms="777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet of Things]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data Center Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.atmecs.project.script.VerifyFooter@6b4a4e18]" started-at="2019-09-30T14:28:31Z" name="browserClose" finished-at="2019-09-30T14:28:33Z" duration-ms="1984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.atmecs.project.script.SearchBlogs -->
+      </class> <!-- com.atmecs.project.script.VerifyFooter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

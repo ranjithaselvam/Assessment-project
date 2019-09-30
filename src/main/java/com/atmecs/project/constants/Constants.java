@@ -17,10 +17,11 @@ public class Constants {
 	public static final String ie_file = "./lib/IEDriverServer.exe";
 	public static final String report_File="./report";
 	public static final String log_file="./log4j.properties";
-	public static final String footer_file="./src/test/resources/Locator/footer.properties";
-	public static final String contextMenu_file="./src/test/resources/Locator/contextMenu.properties";
-	public static final String blogs_file="./src/test/resources/Locator/blogs.properties";
-	public static final String input_file="./src/test/resources/testdata/inputs.xlsx";
+	public static final String footerLoc_file="./src/test/resources/Locator/footer.properties";
+	public static final String contextMenuLoc_file="./src/test/resources/Locator/contextMenu.properties";
+	public static final String blogsLoc_file="./src/test/resources/Locator/blogs.properties";
+	public static final String blogsData_file="./src/test/resources/testdata/blogsdata.xlsx";
+	public static final String contextMenuData_file="./src/test/resources/testdata/contextMenuData.xlsx";
 	
 
 

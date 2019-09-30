@@ -19,7 +19,7 @@ public class Scrolling extends Browsers {
 
 	public static void scrollingDown() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,10000)", "");
+		js.executeScript("window.scrollBy(0,5000)", "");
 	}
 
 }

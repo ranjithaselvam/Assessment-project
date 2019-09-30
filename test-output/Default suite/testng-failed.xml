@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.project.script.SearchBlogs">
+      <class name="com.atmecs.project.script.VerifyFooter">
         <methods>
           <include name="browserClose"/>
-          <include name="searchLog"/>
+          <include name="contextMenu"/>
           <include name="browserSetup"/>
         </methods>
-      </class> <!-- com.atmecs.project.script.SearchBlogs -->
+      </class> <!-- com.atmecs.project.script.VerifyFooter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

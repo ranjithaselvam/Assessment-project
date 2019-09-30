@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.atmecs.project.report.Extentreport"/>
+      
       <class name="com.atmecs.project.script.SearchBlogs"/>
       <class name="com.atmecs.project.script.VerifyFooter"/>
     </classes>

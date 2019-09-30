@@ -16,7 +16,7 @@ public class GetDate {
 	 public static void differenceBetweenTwoDates()
 	 {
 		  LocalDate dateOfBirth = LocalDate.of(2019, Month.MARCH, 15);
-		  DateFormat dateFormat = new SimpleDateFormat("yyyy mm dd");
+		  DateFormat dateFormat = new SimpleDateFormat("yyyy MM dd");
 		  Date date = new Date();
 		  String date1= dateFormat.format(date);
 		  System.out.println("Current Date : "+date1);
